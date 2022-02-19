@@ -1,0 +1,26 @@
+<div class="container">
+    <h2 class="text-center">Thêm khóa học</h2>
+    <form method="POST" action="/course/add">
+        <div class="form-group">
+            <label for="name">Tên khóa học</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Tên khóa học">
+        </div>
+        <div class="form-group">
+            <label for="level">Trình độ</label>
+            <select class="form-control" id="level" name="level">
+                <option value="Cơ bản">Cơ bản</option>
+                <option value="Trung bình">Trung bình</option>
+                <option value="Nâng cao">Nâng cao</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="videoId">VideoID</label>
+            <input type="text" class="form-control" id="videoId" name="videoId" placeholder="VideoID">
+        </div>
+        <div class="form-group">
+            <label for="description">Mô tả khóa học</label>
+            <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+        </div>
+        <input type="submit" class="btn btn-success" value="Thêm">
+    </form>
+</div>

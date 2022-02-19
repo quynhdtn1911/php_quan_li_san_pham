@@ -1,0 +1,37 @@
+@import '_variable.scss';
+
+h1{
+    color: red;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.avatar{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.username{
+    // font-size: 1.2rem;
+    line-height: 28px;
+}
+
+.option{
+    left: -100%;
+    right: 0;
+}
+
+td{
+    max-width: 200px;
+}
+
+select[name="action"]{
+    margin: 0 16px;
+}
+
+.table-courses{
+    margin-top: 16px;
+}

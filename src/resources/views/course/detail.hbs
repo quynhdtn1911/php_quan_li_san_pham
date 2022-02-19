@@ -1,0 +1,16 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-sm-12 col-lg-3">
+            <ul class="mt-3 mb-3">
+                <li>Trình độ: {{course.level}}</li>
+                <li>Tác giả: Sơn Đặng</li>
+            </ul>
+            <a href="#" class="btn btn-danger d-block">Mua khóa học</a>
+        </div>
+        <div class="col-sm-12 col-lg-9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{course.videoId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2 class="mt-3 mb-3">{{course.name}}</h2>
+            <p>{{course.description}}</p>
+        </div>
+    </div>
+</div>
